@@ -2,7 +2,7 @@ select * from dbo.plans
 select * from dbo.subscriptions
 where customer_id = 179
 
---Update the accurate price
+--Update the accurate price--
 UPDATE dbo.plans
 SET price = (
                 case when price is not null then price/100 else price end 
