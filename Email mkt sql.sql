@@ -1,7 +1,7 @@
 --Check join type between customer and rental table 
 select count(distinct c.customer_id ), count(*) from dbo.customer c
 select count(distinct r.customer_id), count(*) from dbo.rental r 
----check distribution in customer table. Relation of fkey customer_id in "customer" table is 1-1
+---check distribution in customer table. Relation of fkey customer_id in "customer" table is 1-1 --
 with cte as (select c.customer_id, count(*) as row_count
 from dbo.customer c 
 group by c.customer_id)
