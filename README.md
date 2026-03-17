@@ -9,7 +9,7 @@ The insights requested by the marketing team include key statistics about each c
     <img src="https://i.imgur.com/5LnI0HW.png">
 
 ##### A. Category Insights
-###### 1. Top Category
+###### 1. Top Category.
 - What was the top category watched by total rental count?
 - How many total films have they watched in their top category and how does it compare to the DVD Rental Co customer base?
 - How many more films has the customer watched compared to the average DVD Rental Co customer?
